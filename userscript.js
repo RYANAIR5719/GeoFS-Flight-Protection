@@ -6,6 +6,7 @@
 // @author       RYANAIR5719
 // @match        https://www.geo-fs.com/geofs.php*
 // @match        https://geo-fs.com/geofs.php*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=geo-fs.com
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
@@ -36,5 +37,5 @@
                 console.log(`Confirmed ${e.key} press.`);
             }
         }
-    }, true); 
+    }, true);
 })();
