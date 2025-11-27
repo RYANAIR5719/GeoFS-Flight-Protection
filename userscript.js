@@ -15,7 +15,7 @@
     'use strict';
     window.addEventListener('keydown', function(e) {
 
-        if (e.code === 'Tab') {
+        if (e.keyCode === 9 && !e.keyCode === 17 && !e.keyCode === 224) {
             let userConfirmed = confirm(`Are you sure you want to teleport to the camera location?`);
             if (!userConfirmed) {
                 e.preventDefault();
@@ -26,7 +26,7 @@
                 console.log(`Confirmed ${e.key} press.`);
             }
         }
-        else if (e.code === 'KeyV') {
+        else if (e.keyCode === 86 && !e.keyCode === 17 && !e.keyCode === 224) {
             let userConfirmed = confirm(`Are you sure you want to open replay mode?`);
             if (!userConfirmed) {
                 e.preventDefault();
