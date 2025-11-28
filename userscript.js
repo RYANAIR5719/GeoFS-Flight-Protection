@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         GeoFS Flight Protection
 // @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  Asks for confirmation before processing Tab or v keys in GeoFS to prevent accidental reset.
+// @version      1.3
+// @description  Asks for confirmation for critical keybinds to prevent accidental flight interference.
 // @author       RYANAIR5719
 // @match        https://www.geo-fs.com/geofs.php*
 // @match        https://geo-fs.com/geofs.php*
@@ -35,6 +35,17 @@
 
         else if (e.code === 'KeyV') {
             let userConfirmed = confirm(`Are you sure you want to open replay mode?`);
+            if (!userConfirmed) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+                console.log(`Blocked ${e.code} press.`);
+            } else {
+                console.log(`Confirmed ${e.code} press.`);
+            }
+        }
+        else if (e.code === 'KeyE' && geofs.aircraft.animtions.values.engineOn == false && geofs.aircraft.animtions.values.groundContact == false) {
+            let userConfirmed = confirm(`Are you sure you want to shut down the engine?`);
             if (!userConfirmed) {
                 e.preventDefault();
                 e.stopPropagation();
