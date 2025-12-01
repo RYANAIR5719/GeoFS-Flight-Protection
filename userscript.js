@@ -27,9 +27,9 @@
                 e.preventDefault();
                 e.stopPropagation();
                 e.stopImmediatePropagation();
-                console.log(`Blocked ${e.code} press.`);
+                console.log(`Blocked [TAB] key press.`);
             } else {
-                console.log(`Confirmed ${e.code} press.`);
+                console.log(`Confirmed [TAB] key press.`);
             }
         }
 
@@ -39,20 +39,20 @@
                 e.preventDefault();
                 e.stopPropagation();
                 e.stopImmediatePropagation();
-                console.log(`Blocked ${e.code} press.`);
+                console.log(`Blocked [V] key press.`);
             } else {
-                console.log(`Confirmed ${e.code} press.`);
+                console.log(`Confirmed [V] key press.`);
             }
         }
-        else if (e.code === 'KeyE' && geofs.aircraft.animtions.values.engineOn == false && geofs.aircraft.animtions.values.groundContact == false) {
+        else if (e.code === 'KeyE' && geofs.aircraft.animations.values.engineOn == true && geofs.aircraft.animations.values.groundContact == false) {
             let userConfirmed = confirm(`Are you sure you want to shut down the engine?`);
             if (!userConfirmed) {
                 e.preventDefault();
                 e.stopPropagation();
                 e.stopImmediatePropagation();
-                console.log(`Blocked ${e.code} press.`);
+                console.log(`Blocked [E] key press.`);
             } else {
-                console.log(`Confirmed ${e.code} press.`);
+                console.log(`Confirmed [E] key press.`);
             }
         }
     }, true);
