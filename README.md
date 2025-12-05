@@ -1,4 +1,4 @@
-# GeoFS Flight Protection
+# <img width="30" height="30" alt="logo" src="https://github.com/user-attachments/assets/78bac03f-8808-439f-b54a-8e6ac6afa424" /> GeoFS Flight Protection
 This add-on essentially prompts the user to click "OK" to confirm their actions every time they press the following keys to prevent any interference with their flight.
 * Press [TAB] (teleports to the location of the camera)
 * Press [V] (opens replay mode and interferes with the aircraft position after exiting)
