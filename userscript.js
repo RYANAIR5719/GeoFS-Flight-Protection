@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         GeoFS Flight Protection
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  Asks for confirmation for critical keybinds to prevent accidental flight interference.
 // @author       RYANAIR5719
 // @match        https://www.geo-fs.com/geofs.php*
 // @match        https://geo-fs.com/geofs.php*
-// @icon         https://raw.githubusercontent.com/RYANAIR5719/GeoFS-Flight-Protection/refs/heads/main/logo.png
+// @icon         https://raw.githubusercontent.com/RYANAIR5719/GeoFS-Flight-Protection/main/logo.png
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/RYANAIR5719/GeoFS-Flight-Protection/main/userscript.js
+// @downloadURL  https://raw.githubusercontent.com/RYANAIR5719/GeoFS-Flight-Protection/main/userscript.js
 // @run-at       document-start
 // ==/UserScript==
 
