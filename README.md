@@ -3,6 +3,7 @@
     <img alt="Stars Badge" src="https://img.shields.io/github/stars/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green">
     <img alt="Stars Badge" src="https://img.shields.io/github/watchers/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green">
 </p>
+
 This add-on essentially prompts the user to click "OK" to confirm their actions every time they press the following keys to prevent any interference with their flight.
 * Press [TAB] (teleports to the location of the camera)
 * Press [V] (opens replay mode and interferes with the aircraft position after exiting)
