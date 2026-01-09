@@ -24,3 +24,10 @@ This method is a little complex, but it only needs to be done once. After that, 
 
 > [!NOTE]
 > Once the script is saved in Tampermmonkey, it should automatically work every time GeoFS is launched.
+
+## License
+This project is licensed under the terms of the MIT license. For more info, see **[LICENSE.md](https://github.com/RYANAIR5719/GeoFS-Flight-Protection/blob/main/LICENSE.md)**.
+
+## Contacts
+**Discord**: ryanair4life  
+**Fandom (GeoFS)**: Your Local Avgeek
