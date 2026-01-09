@@ -1,8 +1,4 @@
-# <img width="30" height="30" alt="logo" src="https://github.com/user-attachments/assets/78bac03f-8808-439f-b54a-8e6ac6afa424" /> GeoFS Flight Protection
-<p align="center">
-    <img alt="Stars Badge" src="https://img.shields.io/github/stars/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green">
-    <img alt="Stars Badge" src="https://img.shields.io/github/watchers/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green">
-</p>
+# <img width="30" height="30" alt="logo" src="https://github.com/user-attachments/assets/78bac03f-8808-439f-b54a-8e6ac6afa424" /> GeoFS Flight Protection <img alt="Stars Badge" src="https://img.shields.io/github/stars/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green"> <img alt="Stars Badge" src="https://img.shields.io/github/watchers/RYANAIR5719/GeoFS-Flight-Protection?style=flat-square&color=light-green">
 
 This add-on essentially prompts the user to click "OK" to confirm their actions every time they press the following keys to prevent any interference with their flight.
 * Press [TAB] (teleports to the location of the camera)
